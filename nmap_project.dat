@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "made by Patalayus (Luke):"
+echo "CHECKING DEVICE IS ONLINE..."
+sudo nmap -sS <insert ip address> or <insert website address>
+echo "...CHECKING OPERATING SYSTEM..."
+sudo nmap -O --osscan-guess <insert ip address> or <insert website address>
+echo "...CHECKING OPEN PORTS..."
+sudo nmap -vv <insert ip address> or <insert website address>
+echo "...CHECKING ONLINE SERVICES..."
+sudo nmap -sv <insert ip address> or <insert website address>
+
